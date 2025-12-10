@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Naman Aggarwal" />
+  <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+  <link rel="preconnect" href="https://kit.fontawesome.com" crossorigin />
+  <link rel="preload" href="assets/background.jpg" as="image" type="image/jpeg" />
+  <link rel="preload" href="assets/fonts/fantasquesansmonoregular.woff" as="font" type="font/woff" crossorigin />
+  <link href="styles.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/39565093f3.js" crossorigin="anonymous" defer></script>
+
+  <style>
+    section h1 {
+      font-size: 2rem;
+    }
+  </style>
+  <title>Naman Aggarwal</title>
+</head>
+
+<body>
+  <div class="terminal-window" role="main">
+    <header role="banner" aria-label="Site Header">
+      <a href="https://github.com/namanaggarwal76/" target="_blank" aria-label="GitHub Profile">
+        <i class="fa-brands fa-github header-icon github-icon" aria-hidden="true"></i>
+      </a>
+      <a href="#" onclick="close_window(); return false;" aria-label="Close Window">
+        <i class="fa-solid fa-circle-xmark header-icon close-icon" aria-hidden="true"></i>
+      </a>
+    </header>
+    <hr aria-hidden="true" />
+    <div id="contentscroll">
+      <div class="content-container">
+        <div class="ascii-Hero" role="presentation" aria-hidden="true">
+          <pre class="ascii">
+░█▀█░█▀█░█▄█░█▀█░█▀█
+░█░█░█▀█░█░█░█▀█░█░█
+░▀░▀░▀░▀░▀░▀░▀░▀░▀░▀
+            </pre>
+        </div>
+        <section class="profile-info" aria-labelledby="profile-heading">
+          <h1 id="profile-heading" class="sr-only">Profile Information</h1>
+          <div class="info-item">
+            <div class="name">
+              <i class="fa-solid fa-address-card" aria-hidden="true"></i>
+              <span>Naman Aggarwal</span>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fa-solid fa-file-invoice" aria-hidden="true"></i>
+            <span>Resume</span>
+            <a href="assets/resume.pdf"
+              class="link-text" target="_blank" aria-label="Resume">→ &nbsp;My Resume</a>
+          </div>
+          <div class="info-item">
+            <i class="fa-brands fa-github" aria-hidden="true"></i>
+            <span>GitHub</span>
+            <a href="https://github.com/namanaggarwal76" class="link-text" target="_blank"
+              aria-label="GitHub">→ &nbsp;github/namanaggarwal76</a>
+          </div>
+          <div class="info-item">
+            <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+            <span>LinkedIn</span>
+            <a href="https://www.linkedin.com/in/naman-aggarwal-ba807b240/" class="link-text" target="_blank"
+              aria-label="LinkedIn">→ &nbsp;linkedin/namanaggarwal</a>
+          </div>
+
+          <div class="info-item">
+            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+            <span>Instagram</span>
+            <a href="https://www.instagram.com/namanaggarwal2111/" class="link-text" target="_blank"
+              aria-label="Instagram">→ &nbsp;instagram/namanaggarwal2111</a>
+          </div>
+        </section>
+      </div>
+
+      <section id="terminal" aria-label="Terminal Emulator">
+        <a id="before"></a>
+        <div id="command" onclick="document.getElementById('texter').focus();">
+          <label for="texter" class="sr-only">Command Input</label>
+          <input type="text" id="texter" class="texter" aria-label="Command line input" onkeyup="typeIt(this, event)"
+            onkeydown="typeIt(this, event); moveIt(this.value.length, event)" onkeypress="typeIt(this, event);" />
+          <div id="liner">
+            <span id="typer" aria-live="polite"></span><b class="cursor" id="cursor" aria-hidden="true">█</b>
+            <div class="list" aria-hidden="true"></div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="js/caret.js" defer></script>
+    <script src="js/commands.js" defer></script>
+    <script src="js/main.js" defer></script>
+  </div>
+</body>
+</html>
