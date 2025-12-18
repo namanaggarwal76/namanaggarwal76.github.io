@@ -1,4 +1,4 @@
-var linkedin = "https://www.linkedin.com/in/naman-aggarwal-ba807b240/";
+var linkedin = "https://www.linkedin.com/in/namanaggarwal76/";
 var instagram = "https://www.instagram.com/namanaggarwal2111/";
 var github = "https://github.com/namanaggarwal76";
 var sudo = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
@@ -28,7 +28,7 @@ let social = [
   "<br>",
   'linkedin       <a href="' +
     linkedin +
-    '" target="_blank">linkedin/namanaggarwal</a>',
+    '" target="_blank">linkedin/namanaggarwal76</a>',
   'instagram      <a href="' +
     instagram +
     '" target="_blank">instagram/namanaggarwal2111</a>',
