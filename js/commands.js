@@ -131,6 +131,16 @@ Built With:
 - libpcap
 </pre>`,
 
+  `<a href="https://github.com/OSDG-IIITH/hackiiit-2026-buggy" target="_blank"><span class='underline'>IBC (Intro to Bulk & Cut)</span></a>`,
+  `<pre class="indent-8 whitespace-pre-wrap break-words overflow-x-auto">
+Full-stack fitness and nutrition app that delivers personalized meal recommendations using optimization techniques, integrates real-time mess menus, and tracks calories, macros, and workouts.
+Built With:
+- FastAPI
+- React Native
+- Python
+- Optimization techniques
+</pre>`,
+
   `<a href="https://github.com/namanaggarwal76/Ultimate-Tic-Tac-Toe" target="_blank"><span class='underline'>Ultimate Tic-Tac-Toe</span></a>`,
   `<pre class="indent-8 whitespace-pre-wrap break-words overflow-x-auto">
 Full Multiplayer Game with offline and online modes.
