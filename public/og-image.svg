@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Naman Aggarwal portfolio preview">
+  <rect width="1200" height="630" fill="#030303"/>
+  <g stroke="#282826" stroke-width="1">
+    <path d="M0 90h1200M0 180h1200M0 270h1200M0 360h1200M0 450h1200M0 540h1200"/>
+    <path d="M120 0v630M240 0v630M360 0v630M480 0v630M600 0v630M720 0v630M840 0v630M960 0v630M1080 0v630"/>
+  </g>
+  <text x="96" y="118" fill="#696962" font-family="monospace" font-size="28">/home/naman</text>
+  <text x="96" y="230" fill="#eeeeea" font-family="monospace" font-size="72" font-weight="700">Naman Aggarwal</text>
+  <text x="100" y="310" fill="#8fffb8" font-family="monospace" font-size="34">&gt; computer science student</text>
+  <text x="100" y="362" fill="#a4a49c" font-family="monospace" font-size="34">&gt; competitive programmer</text>
+  <text x="100" y="414" fill="#a4a49c" font-family="monospace" font-size="34">&gt; building cool things</text>
+  <text x="800" y="146" fill="#8fffb8" font-family="monospace" font-size="24" xml:space="preserve">@@@###***++==--::..</text>
+  <text x="800" y="184" fill="#eeeeea" font-family="monospace" font-size="24" xml:space="preserve">@@@##%%?*+;:,.     </text>
+  <text x="800" y="222" fill="#eeeeea" font-family="monospace" font-size="24" xml:space="preserve">@@##S%?*+;:,.      </text>
+  <text x="800" y="260" fill="#eeeeea" font-family="monospace" font-size="24" xml:space="preserve">##S%?*+;:,.        </text>
+  <text x="800" y="298" fill="#eeeeea" font-family="monospace" font-size="24" xml:space="preserve">#S%?*++;;::..      </text>
+  <text x="800" y="336" fill="#eeeeea" font-family="monospace" font-size="24" xml:space="preserve">S%?*+;:,.          </text>
+  <text x="800" y="374" fill="#eeeeea" font-family="monospace" font-size="24" xml:space="preserve">%?*+;:,.           </text>
+  <text x="96" y="530" fill="#696962" font-family="monospace" font-size="22">Next.js / Tailwind CSS / Framer Motion / Canvas ASCII</text>
+</svg>
