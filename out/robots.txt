@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://namanaggarwal76.github.io/sitemap.xml

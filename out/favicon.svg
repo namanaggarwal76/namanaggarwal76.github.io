@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="NA terminal favicon">
+  <rect width="64" height="64" fill="#030303"/>
+  <rect x="8" y="8" width="48" height="48" fill="none" stroke="#eeeeea" stroke-width="2"/>
+  <path d="M16 22h5l12 20V22h5v20h-5L21 22v20h-5V22Zm27 20 6-20h5l-8 20h-3Z" fill="#8fffb8"/>
+</svg>
