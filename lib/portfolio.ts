@@ -3,7 +3,7 @@ export const navItems = [
   { href: "#skills", label: "skills" },
   { href: "#projects", label: "projects" },
   { href: "#contact", label: "contact" },
-  { href: "https://github.com/namanaggarwal76/resume.pdf", label: "resume", external: true }
+  { href: "https://github.com/namanaggarwal76.github.io/resume.pdf", label: "resume", external: true }
 ];
 
 export const profile = {
